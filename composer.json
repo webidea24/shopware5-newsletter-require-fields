@@ -1,7 +1,6 @@
 {
   "name": "webidea24/shopware5-newsletter-require-fields",
   "description": "Shopware 5 Plugin to set newsletter registration fields as required",
-  "version": "1.0.0",
   "license": "MIT",
   "authors": [
     {
