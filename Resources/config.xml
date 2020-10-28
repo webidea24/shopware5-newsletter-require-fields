@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.6/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="boolean" scope="shop">
+            <name>salutationRequired</name>
+            <label lang="de">Anrede erforderlich</label>
+            <label lang="en">Salutation required</label>
+        </element>
+
+        <element type="boolean" scope="shop">
+            <name>firstnameRequired</name>
+            <label lang="de">Vorname erforderlich</label>
+            <label lang="en">First name required</label>
+        </element>
+
+        <element type="boolean" scope="shop">
+            <name>lastnameRequired</name>
+            <label lang="de">Nachname erforderlich</label>
+            <label lang="en">Surname required</label>
+        </element>
+
+        <element type="boolean" scope="shop">
+            <name>streetRequired</name>
+            <label lang="de">Straße erforderlich</label>
+            <label lang="en">Street required</label>
+        </element>
+
+        <element type="boolean" scope="shop">
+            <name>cityRequired</name>
+            <label lang="de">PLZ &amp; Stadt erforderlich</label>
+            <label lang="en">Zipcode &amp; city required</label>
+        </element>
+
+    </elements>
+</config>
